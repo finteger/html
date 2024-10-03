@@ -2,6 +2,8 @@
 
     table{
     	border-collapse: collapse;
+        box-shadow: 2px 2px 7px black;
+      
     }
 	table, th, td {
     	border: 1px solid black;
@@ -11,7 +13,8 @@
     	padding: 15px;
     }
 	th{
-    	background: lightblue;
+    	background-image: radial-gradient( lightblue, blue);
+        
     }
     
     tr:nth-child(odd){
@@ -21,6 +24,7 @@
 
 
 <table>
+	<caption>This is table title.</caption>
 	<tr>
     	<th>Heading 1</th>
         <th>Heading 2</th>
@@ -35,7 +39,7 @@
     
      <tr>
       <td>Data Cell 4</td>
-      <td rowspan="2" colspan="2" style="text-align:center">Data Cell 5</td>
+      <td rowspan="3" colspan="2" style="text-align:center">Data Cell 5</td>
     </tr>
     
      <tr>
@@ -44,8 +48,6 @@
     
       <tr>
       <td>Data Cell 10</td>
-      <td>Data Cell 11</td>
-      <td>Data Cell 12</td>
     </tr>
 
 </table>
