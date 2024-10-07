@@ -74,15 +74,34 @@ enctype="multipart/form-data">
 
    <fieldset>
       <legend>Range:</legend>
-      <input type="range" >
+      <input id="range" type="range" >
   </fieldset>
 
   <br />
 
   <fieldset>
      <legend>Number:</legend>
-     <input type="number" min="20">
+     <input type="number" min="20" step="10" max="100">
  </fieldset>
+
+ <br />
+
+ <fieldset>
+    <legend>Upload File:</legend>
+    <input type="file">
+</fieldset>
+
+<br />
+
+<fieldset>
+   <legend>Dropdown Selection:</legend>
+   <select name="cars" id="cars">
+    <option>Toyota</option>
+    <option>Volvo</option>
+    <option>Ford</option>
+    <option>Honda</option>
+   </select>
+</fieldset>
 </form>
 
 
